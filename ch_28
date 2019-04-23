@@ -1,0 +1,15 @@
+#!/bin/bash
+# read-integer: sum and multiply
+echo "Please enter two integer for sum or mul-> "
+read int1
+read int2
+
+sum=$((int1+int2))
+mul=$((int1*int2))
+
+echo "sum is $sum"
+echo "mul is $mul"
+
+
+
+

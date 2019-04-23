@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#pracice for ch_25
+
+VARIABLE="$HOSTNAME is HOST"
+
+echo "<html>
+        <head>
+          	<title>$VARIABLE</title>
+	</head>
+	<body>
+		<h1>$title</h1>
+ 		<h2>$title</h2>
+	</body>
+      </html>"
+

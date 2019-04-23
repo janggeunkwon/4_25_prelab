@@ -1,0 +1,27 @@
+#!/bin/bash
+
+#pracice for ch_26
+
+num=1
+
+
+f1(){
+
+	local num
+	
+	num=2
+     	echo "f1 : num = $num"
+}
+
+f2(){
+	local num
+	num=3
+	echo "f2 : num = $num"
+}
+
+echo "global: num=$num"
+f1
+echo "global: num=$num"
+f2
+echo "global: num=$num"
+

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# until-count: display a series of numbers
+
+read int1
+read int2
+sum=0;
+tmp=$int1
+until [[ "$tmp" -gt int2 ]]; do
+
+
+	sum=$((sum+tmp))
+  	tmp=$((tmp + 1))
+done
+echo "TOTAL of sum from $int1 to $int2 is $sum"
+
